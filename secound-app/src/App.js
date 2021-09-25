@@ -9,10 +9,10 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <Route path="/From">
+        <Route exact path="/From">
           <From />
         </Route>
-        <Route path="/According">
+        <Route exact path="/According">
           <Accor />
         </Route>
         {/* <Route path="/">
