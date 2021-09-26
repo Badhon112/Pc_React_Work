@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./Function/App";
+import App from "./Class/App";
 
 function Index() {
   return (
