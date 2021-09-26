@@ -18,9 +18,9 @@ function Navbar() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a className="navbar-brand" form="#">
+            <Link className="navbar-brand" to="#">
               Hidden brand
-            </a>
+            </Link>
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link
@@ -37,7 +37,7 @@ function Navbar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link disabled">Disabled</a>
+                <Link className="nav-link disabled">Disabled</Link>
               </li>
             </ul>
             <form className="d-flex">
