@@ -1,7 +1,6 @@
-// import logo from './logo.svg';
-import Navbar from "./navbar";
-import From from "./From";
+import From from "./navbar";
 import Accor from "./According";
+import Navbar from "./navbar";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
