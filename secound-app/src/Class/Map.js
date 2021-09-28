@@ -28,18 +28,20 @@ export default class map extends Component {
       },
     ];
     return (
-      <div className="container">
-        {List.map((Key) => {
-          const { img, title, Decripe } = Key;
-          return (
-            <div>
-              {/* <img src={img} alt="There is A Image" sizes="20px" srcset="" /> */}
-              <img src={img} alt="There is A image" width="100px" />
-              <h3>{title}</h3>
-              <h3>{Decripe}</h3>
-            </div>
-          );
-        })}
+      <div className="container my-3">
+        <div className="row">
+          {List.map((Key) => {
+            const { img, title, Decripe } = Key;
+            return (
+              <div className="col-md-4">
+                {/* <img src={img} alt="There is A Image" sizes="20px" srcset="" /> */}
+                <img src={img} alt="There is A image" width="100px" />
+                <h3>{title}</h3>
+                <h3>{Decripe}</h3>
+              </div>
+            );
+          })}
+        </div>
       </div>
     );
   }
