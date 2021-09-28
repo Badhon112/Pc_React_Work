@@ -24,7 +24,7 @@ export default class map extends Component {
       {
         img: img4,
         title: "No Friend",
-        Decripe: "Something",
+        Decripe: "Yes Something I made ",
       },
     ];
     return (
