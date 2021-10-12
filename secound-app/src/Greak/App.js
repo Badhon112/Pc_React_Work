@@ -1,9 +1,13 @@
 import React from "react";
-import Img from "./Img";
+import TextArea from "./Control/TextArea";
+// import From from "./Control/From";
+// import Img from "./Img";
 export default function App() {
   return (
     <div className="container">
-      <Img />
+      {/* <Img /> */}
+      {/* <From /> */}
+      <TextArea />
     </div>
   );
 }
